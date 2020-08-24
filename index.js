@@ -1,4 +1,3 @@
-const expect = require('chai').expect;
 
 const MajorColors = [
     "white",
@@ -42,4 +41,4 @@ function GetPairNumberFromColors(majorColor, minorColor) {
     return majorIndex * MinorColors.length + minorIndex + 1;
 }
 
-
+module.exports= { GetPairNumberFromColors,GetColorFromPairNumber}
